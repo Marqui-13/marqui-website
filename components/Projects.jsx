@@ -1,9 +1,5 @@
 import React from 'react'
 import ProjectItem from './ProjectItem'
-import propertyImg from '../public/assets/projects/property.jpg'
-import netflixImg from '../public/assets/projects/netflix.jpg'
-import twitchImg from '../public/assets/projects/twitch.jpg'
-import cryptoImg from '../public/assets/projects/crypto.jpg'
 import defiImg from '../public/assets/projects/defi.png'
 import coinsearchImg from '../public/assets/projects/coinsearch.png'
 
