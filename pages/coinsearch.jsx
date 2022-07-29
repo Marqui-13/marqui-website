@@ -62,6 +62,9 @@ const coinsearch = () => {
                 <RiRadioButtonFill className='pr-1' /> Javascript
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Fleek
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Coin Gecko API
               </p>
             </div>
