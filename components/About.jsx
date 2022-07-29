@@ -1,22 +1,43 @@
-import React from 'react'
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
+import aboutLogo from '../public/assets/about/aboutLogo.png'
 
 const About = () => {
   return (
-    <div id='about' className='w-full md:h-screen p-2 items-center py-16 mb-0  mt-30'>
-        <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
-            <div className='col-span-2'>
-                <p className='uppercase text-xl tracking-widest text-[#15a8fd]'>About</p>
-                <h2 className='py-4'>Who I Am</h2>
-                <p className='py-2 text-gray-600'>I started out coding basic websites in HTML/CSS then I picked up JavaScript and have been using React and Next as a framework for building mobile-first responsive web/mobile applications. I am also into blockchain and decentralization and really like the suite of tools that enable developers to host fast, modern, and censorship-proof sites/apps on the open web. I've been coding for around 5 years and enjoy learning new technologies and their potential impact on our world and its people. While I'm not coding/studying, I like to play basketball, read/research, lift weights, and listen to music.</p>
-                {/* <p className='py-2 text-gray-600 underline cursor-pointer'>Check out some of my latest projects</p> */}
-            </div>
-            <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-                <Image className='rounded-xl' src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1420&q=80" alt="/"></Image>
-            </div>
+    <div
+      id="about"
+      className="w-full md:h-screen p-2 items-center py-16 mb-0  mt-30"
+    >
+      <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
+        <div className="col-span-2">
+          <p className="uppercase text-xl tracking-widest text-[#15a8fd]">
+            About
+          </p>
+          <h2 className="py-4">Who I Am</h2>
+          <p className="py-2 text-gray-600">
+            I started out coding basic websites in HTML/CSS then I picked up
+            JavaScript and have been using React and Next as a framework for
+            building mobile-first responsive web/mobile applications. I am also
+            into blockchain and decentralization and really like the suite of
+            tools that enable developers to host fast, modern, and
+            censorship-proof sites/apps on the open web. I've been coding for
+            around 5 years and enjoy learning new technologies and their
+            potential impact on our world and its people. While I'm not
+            coding/studying, I like to play basketball, read/research, lift
+            weights, and listen to music.
+          </p>
+          {/* <p className='py-2 text-gray-600 underline cursor-pointer'>Check out some of my latest projects</p> */}
         </div>
+        <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
+          <Image
+            className="rounded-xl"
+            src={aboutLogo}
+            alt="/"
+          />
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;
