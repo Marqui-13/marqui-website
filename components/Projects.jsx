@@ -14,26 +14,6 @@ const Projects = () => {
             </p>
             <h2 className='py-4 text-center'>What I've Built</h2>
             <div className='grid md:grid-cols-2 gap-4'>
-                {/* <ProjectItem 
-                title='Homez' 
-                backgroundImg={propertyImg} 
-                projectUrl='/property' 
-                /> */}
-                {/* <ProjectItem 
-                title='Webflix' 
-                backgroundImg={netflixImg} 
-                projectUrl='/netflix' 
-                /> */}
-                {/* <ProjectItem 
-                title='Ness' 
-                backgroundImg={twitchImg} 
-                projectUrl='/twitch' 
-                /> */}
-                {/* <ProjectItem 
-                title='Blockbase' 
-                backgroundImg={cryptoImg} 
-                projectUrl='/crypto' 
-                /> */}
                 <ProjectItem 
                 title='DeFi' 
                 backgroundImg={defiImg} 
