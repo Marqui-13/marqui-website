@@ -4,6 +4,7 @@ import defiImg from '../public/assets/projects/defi.png'
 import coinsearchImg from '../public/assets/projects/coinsearch.png'
 import threelpImg from './../public/assets/projects/three_lp_img.png';
 import threelpImg2 from './../public/assets/projects/three_lp_img_2.png';
+import fichainImg from './../public/assets/projects/fichain.png';
 
 const Projects = () => {
   return (
@@ -14,6 +15,11 @@ const Projects = () => {
             </p>
             <h2 className='py-4 text-center'>What I've Built</h2>
             <div className='grid md:grid-cols-2 gap-4'>
+                <ProjectItem 
+                title='FiChain' 
+                backgroundImg={fichainImg} 
+                projectUrl='/fichain' 
+                />
                 <ProjectItem 
                 title='3JS2' 
                 backgroundImg={threelpImg2} 
