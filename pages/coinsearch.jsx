@@ -28,7 +28,7 @@ const coinsearch = () => {
           <h2>Overview</h2>
           <p>
             This app was built using React JS and is
-            hosted on Fleek. Another feature of this
+            hosted on Fleek. CoinSearch displays the top 50 cryptocurrencies in a responsive, mobile-friendly layout. Another feature of this
             application is dynamic routing through the &quot;React Router DOM&quot;
             package. This application was built using the Coin Gecko API to access real-time data for coin prices, coin descriptions, market caps, ranks(etc...).
           </p>
