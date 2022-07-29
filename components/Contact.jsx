@@ -159,13 +159,14 @@ const Contact = () => {
             <a>
               <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <HiOutlineChevronDoubleUp
-                  className='text-[#15a8fd]'
+                  className='text-[#15a8fd] scroll-smooth'
                   size={30}
                 />
               </div>
             </a>
           </Link>
         </div>
+        <h3 className=' flex justify-center'>Made by <a href='https://github.com/Marqui-13/marqui-website' className='text-[#15a8fd]' target='_blank' rel='noreferrer'>&nbsp;Marqui&nbsp;</a> Built with <a href='https://nextjs.org' className='text-[#15a8fd]' target='_blank' rel='noreferrer'>&nbsp;NextJS&nbsp;</a> + <a href='https://tailwindcss.com/' className='text-[#15a8fd]' target='_blank' rel='noreferrer'>&nbsp;TailwindCSS&nbsp;</a></h3>
       </div>
     </div>
   );
