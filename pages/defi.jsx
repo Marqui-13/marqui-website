@@ -28,7 +28,7 @@ const crypto = () => {
           <h2>Overview</h2>
           <p>
             This app was built using React JS and is
-            hosted on Fleek. This application is a landing page for a DApp. This application supports user authentication
+            hosted on Netlify. This application is a landing page for a DApp. This application supports user authentication
             using Moralis SDK. Users are able to create a new account using their
             wallet address and can then sign in to save coins to a user specific
             list. This is made possble by creating a Moralis database at the time of user registration. This application was built using the CoinGecko API and is hosted on Fleek.
@@ -66,7 +66,7 @@ const crypto = () => {
                 <RiRadioButtonFill className='pr-1' /> Moralis
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Fleek
+                <RiRadioButtonFill className='pr-1' /> Netlify
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> CoinGecko API
