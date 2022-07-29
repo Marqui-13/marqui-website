@@ -30,10 +30,10 @@ const coinsearch = () => {
             This app was built using React JS and is
             hosted on Fleek. Another feature of this
             application is dynamic routing through the &quot;React Router DOM&quot;
-            package. This application was built using the Coin Gecko API.
+            package. This application was built using the Coin Gecko API to access real-time data for coin prices, coin descriptions, market caps, ranks(etc...).
           </p>
           <a
-            href='https://github.com/Marqui-13'
+            href='https://github.com/Marqui-13/react-ipfs-app'
             target='_blank'
             rel='noreferrer'
           >
@@ -62,13 +62,7 @@ const coinsearch = () => {
                 <RiRadioButtonFill className='pr-1' /> Javascript
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Firebase
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Coin Gecko API
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Routes
               </p>
             </div>
           </div>
