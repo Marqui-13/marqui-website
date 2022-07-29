@@ -17,7 +17,7 @@ const crypto = () => {
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Defi App</h2>
+          <h2 className='py-2'>Defi</h2>
           <h3>React JS / Tailwind / Moralis</h3>
         </div>
       </div>
@@ -31,7 +31,7 @@ const crypto = () => {
             hosted on Netlify. This application is a landing page for a DApp. This application supports user authentication
             using Moralis SDK. Users are able to create a new account using their
             wallet address and can then sign in to save coins to a user specific
-            list. This is made possble by creating a Moralis database at the time of user registration. This application was built using the CoinGecko API and is hosted on Fleek.
+            list. This is made possble by creating a Moralis database at the time of user registration. This application was built using the CoinGecko API.
           </p>
           <a
             href='https://github.com/Marqui-13/react-defi-cgapi-app'
