@@ -4,19 +4,24 @@ import htmlImg from '../public/assets/skills/html.png'
 import cssImg from '../public/assets/skills/css.png'
 import tailwindImg from '../public/assets/skills/tailwind.png'
 import jsImg from '../public/assets/skills/javascript.png'
+import threeImg from '../public/assets/skills/three.png'
+import blenderImg from '../public/assets/skills/blender.png'
 import reactImg from '../public/assets/skills/react.png'
 import nextImg from '../public/assets/skills/nextjs.png'
+import viteImg from '../public/assets/skills/vite.png'
+import svelteImg from '../public/assets/skills/svelte.png'
 import nodeImg from '../public/assets/skills/node.png'
 import firebaseImg from '../public/assets/skills/firebase.png'
 import solidityImg from '../public/assets/skills/solidity.png'
 import hardhatImg from '../public/assets/skills/hardhat.png'
 import ozImg from '../public/assets/skills/openzepplin.png'
+import alchemyImg from '../public/assets/skills/alchemy.png'
+import moralisImg from '../public/assets/skills/moralis.png'
 import ipfsImg from '../public/assets/skills/ipfs.png'
 import fleekImg from '../public/assets/skills/fleek.png.png'
 import netlifyImg from '../public/assets/skills/netlify.png'
 import githubImg from '../public/assets/skills/github.png'
-import moralisImg from '../public/assets/skills/moralis.jpg'
-import alchemyImg from '../public/assets/skills/alchemy.png'
+
 
 
 const Skills = () => {
@@ -62,7 +67,7 @@ const Skills = () => {
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Tailwind</h3>
+                <h3>Tailwind CSS</h3>
               </div>
             </div>
           </div>
@@ -84,11 +89,37 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <SkillItem
+                    img={threeImg} 
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Three JS</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <SkillItem
+                    img={blenderImg} 
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Blender</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <SkillItem
                     img={reactImg} 
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>React</h3>
+                <h3>React JS</h3>
               </div>
             </div>
           </div>
@@ -101,7 +132,33 @@ const Skills = () => {
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Next</h3>
+                <h3>Next JS</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <SkillItem
+                    img={viteImg} 
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Vite</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <SkillItem
+                    img={svelteImg} 
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Svelte</h3>
               </div>
             </div>
           </div>
@@ -114,7 +171,7 @@ const Skills = () => {
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Node</h3>
+                <h3>Node JS</h3>
               </div>
             </div>
           </div>
@@ -175,6 +232,32 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <SkillItem
+                    img={alchemyImg} 
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Alchemy</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <SkillItem
+                    img={moralisImg} 
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Moralis</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <SkillItem
                     img={ipfsImg} 
                 />
               </div>
@@ -223,31 +306,6 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <SkillItem
-                    img={moralisImg} 
-                />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>Moralis</h3>
-              </div>
-            </div>
-          </div>
-
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <SkillItem
-                    img={alchemyImg} 
-                />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>Alchemy</h3>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
