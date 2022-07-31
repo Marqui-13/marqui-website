@@ -178,7 +178,7 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a
-                  href='https://github.com/Marqui_13'
+                  href='https://github.com/Marqui-13'
                   target='_blank'
                   rel='noreferrer'
                 >
