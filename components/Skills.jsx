@@ -5,6 +5,7 @@ import cssImg from '../public/assets/skills/css.png'
 import tailwindImg from '../public/assets/skills/tailwind.png'
 import jsImg from '../public/assets/skills/javascript.png'
 import threeImg from '../public/assets/skills/three.png'
+import greensockImg from '../public/assets/skills/greensock.png'
 import blenderImg from '../public/assets/skills/blender.png'
 import reactImg from '../public/assets/skills/react.png'
 import nextImg from '../public/assets/skills/nextjs.png'
@@ -26,7 +27,7 @@ import githubImg from '../public/assets/skills/github.png'
 
 const Skills = () => {
   return (
-    <div id="skills" className="w-full lg:h-screen p-2 mb-80 mt-0">
+    <div id="skills" className="w-full lg:h-screen p-2 mb-80 mt-30">
       <div className="max-width[1240px] mx-auto">
         <p className="text-xl text-center tracking-widest uppercase text-[#15a8fd]">
           Skills
@@ -94,6 +95,19 @@ const Skills = () => {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Three JS</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <SkillItem
+                    img={greensockImg} 
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>GreenSock</h3>
               </div>
             </div>
           </div>
