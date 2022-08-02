@@ -70,9 +70,16 @@ const Contact = () => {
                     </div>
                   </a>
 
+                  <a 
+                    href="mailto:treesandbees01@gmail.com"
+                    target='_blank'
+                    rel='noreferrer'
+                  >
                   <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <AiOutlineMail />
                   </div>
+                  </a>
+
                   <Link href='https://marqui-resume.on.fleek.co/'>
                     <a>
                       <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
