@@ -27,7 +27,7 @@ const bmicalculator = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-             BMI Calculator is a web app that calculates the users BMI(Body Mass Index) and displays if the user is underweight, a healthy weight, or if they are overweight. This project could have been built simpler with plain Vanilla JavaScript but was built using React as a framework to enhance known concepts of React, specifically, useState hook and conditional statements to display specific user messages/images based upon the calculated user output.  
+             BMI Calculator is a web app that calculates the users BMI(Body Mass Index) and displays if the user is underweight, a healthy weight, or if they are overweight. This project could have been built simpler with plain Vanilla JavaScript but was built using React as a framework to enhance known concepts of React, specifically, useState hook and conditional statements to display specific user messages/images based upon the calculated user output. BMI Calculator is hosted on Fleek.  
           </p>
           <a
             href='https://github.com/Marqui-13/react-bmi-calculator'
@@ -54,6 +54,9 @@ const bmicalculator = () => {
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> CSS3
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Fleek
               </p>
             </div>
           </div>
