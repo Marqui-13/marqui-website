@@ -5,6 +5,7 @@ import coinsearchImg from '../public/assets/projects/coinsearch.png'
 import threelpImg from './../public/assets/projects/three_lp_img.png';
 import threelpImg2 from './../public/assets/projects/three_lp_img_2.png';
 import fichainImg from './../public/assets/projects/fichain.png';
+import bmicalculatorImg from './../public/assets/projects/bmicalculator.png';
 import filler from './../public/assets/projects/filler.png';
 
 const Projects = () => {
@@ -32,6 +33,11 @@ const Projects = () => {
                 projectUrl='/coinsearch' 
                 />
                 <ProjectItem 
+                title='BMI Calculator' 
+                backgroundImg={bmicalculatorImg} 
+                projectUrl='/bmicalculator' 
+                />
+                <ProjectItem 
                 title='Three JS LP' 
                 backgroundImg={threelpImg2} 
                 projectUrl='/threelp2' 
@@ -41,11 +47,6 @@ const Projects = () => {
                 backgroundImg={threelpImg} 
                 projectUrl='/threelp' 
                 />
-                {/* <ProjectItem 
-                title='DeFi' 
-                backgroundImg={defiImg} 
-                projectUrl='/defi' 
-                /> */}
             </div>
         </div>
     </div>
