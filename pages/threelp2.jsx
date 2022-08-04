@@ -27,7 +27,7 @@ const threelp = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This app was built using Javascript and a cross-browser JavaScript library and application programming interface (API), Three.js, used to create and display animated 3D computer graphics in a web browser using WebGL. 
+            This app was built using Javascript and a cross-browser JavaScript library and application programming interface (API), Three.js, used to create and display animated 3D computer graphics in a web browser using WebGL. This landing page was built with Vite and is hosted on Fleek. 
           </p>
           <a
             href='https://github.com/Marqui-13/threejs-landing-page-2'
