@@ -27,7 +27,7 @@ const blockcord = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-             BlockCord is similar to Discord in regard to the UI/UX but uses Gun.js as decentralized database node rather than Apache Cassandra's NoSQL database. BlockCord's features include: a stunning design, connection to the blockchain, metamask pairing, interaction with smart contracts, user account login/registration/authentication, sending/receiving messages using the blockchain and more. BlockCord is built with Next and is hosted on Netlify with blazing-fast load times.
+             BlockCord is similar to Discord in regard to the UI/UX but uses Gun.js as a decentralized database node rather than Apache Cassandra's NoSQL database. BlockCord's features include: a stunning design, connection to the blockchain, metamask pairing, interaction with smart contracts, user account login/registration/authentication, sending/receiving messages using the blockchain and more. BlockCord is built with Next and is hosted on Netlify with blazing-fast load times.
           </p>
           <a
             href='https://github.com/Marqui-13'
