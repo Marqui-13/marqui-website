@@ -27,7 +27,7 @@ const fichain = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-             FiChain is equipped with a variety of features including: a stunning design, connection to the blockchain, metamask pairing, interaction with smart contracts, sending Ethereum through the blockchain network, writing solidity code and more. FiChain is built with Vite and hosted on Netlify with blazing-fast loading times.
+             FiChain is equipped with a variety of features including: a stunning design, connection to the blockchain, metamask pairing, interaction with smart contracts, sending Ethereum through the blockchain network, writing solidity code and more. FiChain is built with Vite and hosted on Fleek with blazing-fast load times.
           </p>
           <a
             href='https://github.com/Marqui-13/vite-fichain-app'
