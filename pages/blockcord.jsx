@@ -37,7 +37,7 @@ const blockcord = () => {
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='/blockcord'
+            href='https://ndy.netlify.app'
             // target='_blank'
             // rel='noreferrer'
           >
