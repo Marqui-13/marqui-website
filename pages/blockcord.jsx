@@ -17,7 +17,7 @@ const blockcord = () => {
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>BlockCord</h2>
+          <h2 className='py-2'>Blockcord</h2>
           <h3>Next JS / Sanity / Gun JS </h3>
         </div>
       </div>
@@ -27,7 +27,7 @@ const blockcord = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-             BlockCord is similar to Discord in regard to the UI/UX but uses Gun.js as a decentralized database node rather than Apache Cassandra's NoSQL database. BlockCord's features include: a stunning design, connection to the blockchain, metamask pairing, interaction with smart contracts, user account login/registration/authentication, sending/receiving messages using the blockchain and more. BlockCord is built with Next and is hosted on Netlify with blazing-fast load times.
+             Blockcord is similar to Discord in regard to the UI/UX but uses Gun.js as a decentralized database node rather than Apache Cassandra's NoSQL database. BlockCord's features include: a stunning design, connection to the blockchain, metamask pairing, interaction with smart contracts, user account login/registration/authentication, sending/receiving messages using the blockchain and more. BlockCord is built with Next and is hosted on Netlify with blazing-fast load times.
           </p>
           <a
             href='https://github.com/Marqui-13'
