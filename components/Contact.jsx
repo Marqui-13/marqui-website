@@ -173,7 +173,7 @@ const Contact = () => {
             </a>
           </Link>
         </div>
-        <h3 className=' flex justify-center'>Made by <a href='https://github.com/Marqui-13/marqui-website' className='text-[#15a8fd]' target='_blank' rel='noreferrer'>&nbsp;Marqui&nbsp;</a> Built with <a href='https://nextjs.org' className='text-[#15a8fd]' target='_blank' rel='noreferrer'>&nbsp;NextJS&nbsp;</a> + <a href='https://tailwindcss.com/' className='text-[#15a8fd]' target='_blank' rel='noreferrer'>&nbsp;TailwindCSS&nbsp;</a></h3>
+        <h3 className=' flex justify-center'>Made by <span className='text-[#15a8fd]'>&nbsp;Marqui&nbsp;</span> Built with <a href='https://nextjs.org' className='text-[#15a8fd]' target='_blank' rel='noreferrer'>&nbsp;NextJS&nbsp;</a> + <a href='https://tailwindcss.com/' className='text-[#15a8fd]' target='_blank' rel='noreferrer'>&nbsp;TailwindCSS&nbsp;</a></h3>
       </div>
     </div>
   );
