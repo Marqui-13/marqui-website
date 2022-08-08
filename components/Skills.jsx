@@ -23,7 +23,7 @@ import fleekImg from '../public/assets/skills/fleek.png.png'
 import netlifyImg from '../public/assets/skills/netlify.png'
 import githubImg from '../public/assets/skills/github.png'
 import tensorflowImg from '../public/assets/skills/tensorflow.PNG'
-import remixImg from '../public/assets/skills/tensorflow.PNG'
+import remixImg from '../public/assets/skills/remix.PNG'
 
 
 
