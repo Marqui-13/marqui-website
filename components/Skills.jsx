@@ -22,7 +22,7 @@ import ipfsImg from '../public/assets/skills/ipfs.png'
 import fleekImg from '../public/assets/skills/fleek.png.png'
 import netlifyImg from '../public/assets/skills/netlify.png'
 import githubImg from '../public/assets/skills/github.png'
-import tensorflowImg from '../public/assets/skills/tensorflow.png
+import tensorflowImg from '../public/assets/skills/tensorflow.PNG'
 
 
 
