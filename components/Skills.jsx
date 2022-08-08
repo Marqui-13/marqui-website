@@ -22,6 +22,7 @@ import ipfsImg from '../public/assets/skills/ipfs.png'
 import fleekImg from '../public/assets/skills/fleek.png.png'
 import netlifyImg from '../public/assets/skills/netlify.png'
 import githubImg from '../public/assets/skills/github.png'
+import tensorflowImg from '../public/assets/skills/tensorflow.png
 
 
 
@@ -316,6 +317,19 @@ const Skills = () => {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Github</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <SkillItem
+                    img={tensorflowImg} 
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>TensorFlow</h3>
               </div>
             </div>
           </div>
