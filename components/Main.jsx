@@ -1,7 +1,5 @@
 import React from 'react'
-import {FaGithub, FaLinkedinIn, FaCodepen} from 'react-icons/fa'
-import {AiOutlineMail} from 'react-icons/ai'
-
+import {FaGithub, FaLinkedinIn, FaCodepen, FaSeedling} from 'react-icons/fa'
 
 const Main = () => {
   return (
@@ -13,7 +11,7 @@ const Main = () => {
                 <p className='py-4 text-gray-400 max-w-[70%] m-auto'>I'm a developer and a student focusing on Web3, Blockchain, & Responsive Front-End/Back-End Development.</p>
                 <div className='flex items-center justify-between max-w-[330] m-auto py-4'>
                     <a 
-                        href='https://www.linkedin.com/in/marqui-orr-793115219/'
+                        href='https://www.linkedin.com/in/marqui-orr-793115219'
                         target='_blank'
                         rel='noreferrer'
                     >
@@ -39,6 +37,16 @@ const Main = () => {
                     >
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <FaCodepen />
+                    </div>
+                    </a>
+  
+                     <a 
+                        href='https://app.radicle.xyz'
+                        target='_blank'
+                        rel='noreferrer'
+                    >
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <FaSeedling />
                     </div>
                     </a>
                 </div>
