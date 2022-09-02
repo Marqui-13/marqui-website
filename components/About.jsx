@@ -23,7 +23,7 @@ const About = () => {
             censorship-proof sites/apps on the open web. I've been coding for
             around 5 years and enjoy learning new technologies and their
             potential impact on our world and its people. While I'm not
-            coding/studying, read/research, lift
+            coding/studying, I like to read/research, lift
             weights, and listen to music.
           </p>
           {/* <p className='py-2 text-gray-600 underline cursor-pointer'>Check out some of my latest projects</p> */}
