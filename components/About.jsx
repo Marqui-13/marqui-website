@@ -16,14 +16,14 @@ const About = () => {
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
             I started out coding basic websites in HTML/CSS then I picked up
-            JavaScript and have been using React and Next as a framework for
-            building mobile-first responsive web/mobile applications. I am also
-            into blockchain and decentralization and really like the suite of
+            JavaScript and have been using a variety of frameworks for
+            building fast, mobile-first, responsive, web/mobile applications. I am also
+            passionate about blockchain technology and decentralization and really like the suite of
             tools that enable developers to host fast, modern, and
             censorship-proof sites/apps on the open web. I've been coding for
             around 5 years and enjoy learning new technologies and their
             potential impact on our world and its people. While I'm not
-            coding/studying, I like to play basketball, read/research, lift
+            coding/studying, read/research, lift
             weights, and listen to music.
           </p>
           {/* <p className='py-2 text-gray-600 underline cursor-pointer'>Check out some of my latest projects</p> */}
