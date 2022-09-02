@@ -15,9 +15,9 @@ const About = () => {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
-            I started out coding basic websites in HTML/CSS then I picked up
+            I started out coding basic websites in HTML and CSS, then I picked up
             JavaScript and have been using a variety of frameworks for
-            building fast, mobile-first, responsive, web/mobile applications. I am also
+            building fast, mobile-first, and responsive web/mobile applications. I am also
             passionate about blockchain technology and decentralization and really like the suite of
             tools that enable developers to host fast, modern, and
             censorship-proof sites/apps on the open web. I've been coding for
