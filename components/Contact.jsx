@@ -71,7 +71,7 @@ const Contact = () => {
                   </a>
 
                   <a 
-                    href="mailto:treesandbees01@gmail.com"
+                    href="mailto:0xaf74e13304598b081d46dc7d9b05e9fe5bcbfe32@skiff.com"
                     target='_blank'
                     rel='noreferrer'
                   >
