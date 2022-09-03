@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaGithub, FaLinkedinIn, FaCodepen, FaSeedling} from 'react-icons/fa'
+import { FaGithub, FaLinkedinIn, FaSeedling, FaCodepen } from 'react-icons/fa'
 
 const Main = () => {
   return (
