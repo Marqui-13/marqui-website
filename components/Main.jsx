@@ -29,6 +29,16 @@ const Main = () => {
                         <FaGithub />
                     </div>
                     </a>
+  
+                    <a 
+                        href='https://app.radicle.xyz'
+                        target='_blank'
+                        rel='noreferrer'
+                    >
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <FaSeedling />
+                    </div>
+                    </a>
 
                     <a 
                         href='https://codepen.io/marqui-13'
@@ -37,16 +47,6 @@ const Main = () => {
                     >
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <FaCodepen />
-                    </div>
-                    </a>
-  
-                     <a 
-                        href='https://app.radicle.xyz'
-                        target='_blank'
-                        rel='noreferrer'
-                    >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <FaSeedling />
                     </div>
                     </a>
                 </div>
