@@ -25,7 +25,7 @@ const fichain = () => {
       <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
         <div className='col-span-4'>
           <p>Project</p>
-          <h2>Overview</h2>
+          <h2>Description</h2>
           <p>
              FiChain is equipped with a variety of features including: a stunning design, connection to the blockchain, metamask pairing, interaction with smart contracts, sending Ethereum through the blockchain network, writing solidity code and more. FiChain is built with Vite and hosted on Fleek with blazing-fast load times.
           </p>
