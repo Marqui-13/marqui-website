@@ -25,7 +25,7 @@ const threelp = () => {
       <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
         <div className='col-span-4'>
           <p>Project</p>
-          <h2>Overview</h2>
+          <h2>Description</h2>
           <p>
             This web app was built using Javascript and a cross-browser JavaScript library and application programming interface (API), Three.js, used to create and display animated 3D computer graphics in a web browser using WebGL. This landing page was built with Vite and is hosted on Fleek. 
           </p>
