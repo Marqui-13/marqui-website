@@ -25,7 +25,7 @@ const coinsearch = () => {
       <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
         <div className='col-span-4'>
           <p>Project</p>
-          <h2>Overview</h2>
+          <h2>Description</h2>
           <p>
             This app was built using React JS and is
             hosted on Fleek. CoinSearch displays the top 50 cryptocurrencies in a responsive, mobile-friendly layout. Another feature of this
